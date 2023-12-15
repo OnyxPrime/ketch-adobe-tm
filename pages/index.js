@@ -15,10 +15,14 @@ export default function Home() {
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5MF7SXS');`}</Script>
+        <Script> {`
+          console.log('Hello Ryan!');
+          `}
+        </Script>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to Ryan's app!" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
